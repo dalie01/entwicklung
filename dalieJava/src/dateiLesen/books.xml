@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<buecher>
+	<buch jahr="2005">
+		<titel>Java und XML</titel>
+		<author>
+			<nachname>Niedermeier</nachname>
+			<vorname>Stephan</vorname>
+		</author>
+		<author>
+			<nachname>Scholz</nachname>
+			<vorname>Michael</vorname>
+		</author>
+		<verlag>Galileo Computing</verlag>
+		<preis>(unbekannt)</preis>
+	</buch>
+	<buch jahr="2004">
+		<titel>Cocoon 2 und Tomcat</titel>
+		<author>
+			<nachname>Niedermeier</nachname>
+			<vorname>Stephan</vorname>
+		</author>
+		<verlag>Galileo Computing</verlag>
+		<preis>59,90</preis>
+	</buch>
+	<buch jahr="2004">
+		<titel>XML Schema</titel>
+		<author>
+			<nachname>Skulschus</nachname>
+			<vorname>Marco</vorname>
+		</author>
+		<author>
+			<nachname>Wiederstein</nachname>
+			<vorname>Marcus</vorname>
+		</author>
+		<verlag>Galileo Computing</verlag>
+		<preis>39,90</preis>
+	</buch>
+</buecher>

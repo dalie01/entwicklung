@@ -1,0 +1,45 @@
+@CHARSET "ISO-8859-1";
+@IMPORT url("logo.310.css");
+@IMPORT url("logo.620.css");
+
+@media screen and (min-width: 621px) {
+	
+}
+
+table#logo_table_0 {
+
+	border-collapse: separate; 
+	border: 3.9px solid #FFFFFF;
+	padding: 1px;
+}
+table#logo_table_0 td { 
+	
+	padding: 2px;
+}
+
+table#logo_table_1 {
+
+	border-collapse: collapse; 
+	border-spacing: 0em;
+	border: 0.0px solid #FFFFFF; 
+	/*background-color:#DACDB9;*/ 
+	padding: 0px
+}
+
+table#logo_table_1 tr {
+	
+
+}
+table#logo_table_1 td {
+
+	/*border-top: 0.1px solid #DACDB9;  
+	border-right: 0.1px solid #DACDB9;  
+	border-bottom: 0.1px solid #DACDB9;
+	border-left: 0.1px solid #DACDB9;*/
+	padding: 0px;
+}
+
+table#logo_table_1 td.link {
+	
+	cursor: pointer;
+}

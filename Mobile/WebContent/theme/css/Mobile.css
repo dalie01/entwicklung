@@ -1,0 +1,83 @@
+@CHARSET "ISO-8859-1";
+
+a.aTeaser, a.aTeaser:link, a.aTeaser:visited, a.aTeaser:hover, a.aTeaser:active {
+	text-decoration: none;
+	color: #2489CE;
+}
+
+div.cTeaser + p {
+	margin: 0px;
+	padding: 0px;
+}
+
+div.dalieBox {
+	cursor:default
+}
+
+div.dalieButton {
+	cursor:default
+}
+
+form.mobilWebFrom {
+	
+}
+
+label.styleItalic {
+	font-style: italic;
+}
+
+/* Show priority 1 at 70em */
+@media screen and (min-width: 70em) {
+   #propertiesTable  th.ui-table-priority-1,
+   #propertiesTable td.ui-table-priority-1 {
+     display: table-cell;
+   }
+}
+/* Manually hidden */
+#propertiesTable th.ui-table-cell-hidden,
+#propertiesTable td.ui-table-cell-hidden {
+  display: none;
+}
+ 
+/* Manually shown */
+#propertiesTable th.ui-table-cell-visible,
+#propertiesTable td.ui-table-cell-visible {
+   display: table-cell;
+}
+
+.ui-corner-top {
+    border-top-left-radius: 0.6em;
+    border-top-right-radius: 0.6em;
+}
+
+.dalie-ul-li-head {
+	display: block;
+	text-overflow: ellipsis; 
+	overflow: hidden; 
+	white-space: nowrap; 
+}
+.dalie-ui-li-desc {
+	font-size: 12px; 
+	font-weight: normal; 
+	text-overflow: ellipsis; 
+	overflow: hidden; 
+	white-space: nowrap; 
+}
+
+.test {
+	font-size: 12px;
+    font-weight: 400;
+    white-space: nowrap;
+    
+}
+
+#hello {
+	background: linear-gradient(#F6F6F6, #E0E0E0) repeat scroll 0 0 #DFDFDF;
+    border: 1px solid #BBBBBB;
+    color: #222222;
+    font-weight: 700;
+    text-shadow: 0 1px 0 #FFFFFF;
+	border-radius: 0.6em;
+    -webkit-border-radius: 0.6em;
+	-moz-border-radius: 0.6em;
+}

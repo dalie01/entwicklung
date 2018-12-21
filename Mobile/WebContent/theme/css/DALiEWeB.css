@@ -1,0 +1,7 @@
+@CHARSET "ISO-8859-1";
+
+
+div.logo {
+	min-width: 99%;
+	font-family: 'Philosopher', sans-serif;
+}

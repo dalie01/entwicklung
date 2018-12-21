@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<immeweb>
+<product sku="4711">
+<sku>4711</sku>
+<name xml:lang="de-DE">Bad-Schrank</name>
+<catalog id="bath">bad</catalog>
+<online>1</online>
+<description><![CDATA[
+Dieses Möbelstück speziell fürs Bad, wurde nach Maß angefertigt. 
+Es entstand aus dem Kirschbaum, welcher ehemals im Garten des Hausbesitzers stand. Da dieser Kirschbaum leider nicht genug Holz ergab, wurde noch ein weiterer Birnenbaum ebenfalls mit verarbeitet.
+Besonders viel Wert wurde auf die komplizierte Maßanfertigung nach den speziellen Gegebenheiten der Wand im Raum gelegt. Dabei hat die große Familie, den vielen Stauraum zu schätzen gelernt, der mit diesem Möbelstück entstand.
+<br/>Trotz dieses schwierigen Auftrags, haben wir die Aufgabe bestes erfüllt, und ein fantastisches Bad entstehen lassen! Die Spiegel bringen zusätzliches Licht in den Raum und sind tief genug für die ganz kleinen. Nun wirkt das Bad größer und freundlicher.
+]]></description>
+<short-description><![CDATA[Weitere kurze Beschreibung]]></short-description>
+<custom-attributes>
+<custom-attribute name="img_mediumpicture" dt:dt="img" xml:lang="de-DE">DSC_2061.JPG</custom-attribute>
+<custom-attribute name="img_minipicture" dt:dt="img" xml:lang="de-DE">DSC_2732.JPG</custom-attribute>
+<custom-attribute name="img_picture1" dt:dt="img" xml:lang="de-DE">DSC_2815.JPG</custom-attribute>
+</custom-attributes>
+</product>
+<product sku="4712">
+<sku>4712</sku>
+<name xml:lang="de-DE">Gartenbank</name>
+<catalog id="bench">bank</catalog>
+<online>1</online>
+<description><![CDATA[Die Bank mit den großen Schrauben von ehemaligen Zügen, die dieser nicht nur das ganz Besondere verleihen, 
+hat somit auch eine besonders hohe Stabilität. Lässt man diese an der richtigen Stelle zu Geltung kommen, fällt es einem schwer die Pause auszulassen, 
+um dabei vielleicht seinen Garten zu bewundern. Ideal kann sie außen sowie innen aufgestellt werden. 
+Durch ihre handlichkeit ist sie schnell transportiert, und kann somit vor Witterung schützen. 
+Bestens geeignet auf für den Wintergarten, Flur oder in der Küche. Eventuell auch für eine Sauna, wäre diese Bank geeignet. 
+<br>
+Eine Fertigung aller gewünschten Maße kann hier schnell erfolgen.
+]]></description>
+<short-description><![CDATA[&nbsp;]]></short-description>
+<custom-attributes>
+<custom-attribute name="img_mediumpicture" dt:dt="img" xml:lang="de-DE">DSC_2312.JPG</custom-attribute>
+<custom-attribute name="img_minipicture" dt:dt="img" xml:lang="de-DE">DSC_2728.JPG</custom-attribute>
+<custom-attribute name="img_picture1" dt:dt="img" xml:lang="de-DE">DSC_2728.JPG</custom-attribute>
+<custom-attribute name="img_picture2" dt:dt="img" xml:lang="de-DE">DSC_2730.JPG</custom-attribute>
+<custom-attribute name="img_picture3" dt:dt="img" xml:lang="de-DE">DSC_2731.JPG</custom-attribute>
+<custom-attribute name="length" dt:dt="string" xml:lang="de-DE"><![CDATA[Länge:&nbsp;0,74]]></custom-attribute>
+<custom-attribute name="hight" dt:dt="string" xml:lang="de-DE"><![CDATA[Höhe:&nbsp;0,83]]></custom-attribute>
+<custom-attribute name="deep" dt:dt="string" xml:lang="de-DE"><![CDATA[Breite:&nbsp;0,46]]></custom-attribute>
+<custom-attribute name="dispatch" dt:dt="string" xml:lang="de-DE"><![CDATA[Holz ist ein Naturprodukt und Möbelstücke aus 
+derartig recyceltem Holz haben einen ganz eigenen Charme, weil das Holz eine unverwechselbare Spur der Zeit hat.
+Die Möbel haben ein rustikales Dekor, ideal geschaffen für Hotels, für Restaurants und Bars mit rustikalem Ambiente, 
+für Gärten und für die Innenausstattung des Hauses.<br/> 
+<br/> Deshalb arbeiten wir nur mit erstklassigen Möbelspediteuren zusammen, um eine reibungslose Zustellung unserer Möbel garantieren zu können. 
+Unsere Möbel werden nicht im KIT ausgeliefert, sondern sind komplette Möbelstücke aus altem Holz, sodass wir daher jeden Transport einzeln nach Volumen berechnen müssen. Schubladen, sowie die Teile die nicht sichtbar sind, sind auch komplett aus massivem Holz handwerklich verarbeitet.
+]]></custom-attribute>
+</custom-attributes>
+</product>
+<product sku="4714">
+<sku>4714</sku>
+<name xml:lang="de-DE">Beistell</name>
+<catalog id="sidetable">Beistelltisch</catalog>
+<category id="big">groß</category>
+<online>1</online>
+<description><![CDATA[Dieser Tisch ist breit, nicht sehr tief und hoch. Ideal für einen Eingang im Flur des Haus, Büro, Praxis oder eventuell in einem Hotel. Als Ablage für Schlüssel, Telefone oder auch Prospekte
+eignet sich dieser Tisch als echter Hingucker hervorragend. Zudem ist er sehr praktisch und alles hat sein Platz gefunden. 
+Da dieser nicht zu groß ist, passt er in kleinere Ecken, ohne zu stören. Egal wo dieser Tisch seinen Platz findet, er wird einfach eine Bereicherung und zugleich ein Blickfang sein.  
+]]></description>
+<short-description><![CDATA[&nbsp;]]></short-description>
+<custom-attributes>
+<custom-attribute name="img_mediumpicture" dt:dt="img" xml:lang="de-DE">DSC_1621.JPG</custom-attribute>
+<custom-attribute name="img_minipicture" dt:dt="img" xml:lang="de-DE">DSC_1626.JPG</custom-attribute>
+<custom-attribute name="img_picture1" dt:dt="img" xml:lang="de-DE">DSC_1646.JPG</custom-attribute>
+<custom-attribute name="img_picture2" dt:dt="img" xml:lang="de-DE">DSC_1966.JPG</custom-attribute>
+<custom-attribute name="img_picture3" dt:dt="img" xml:lang="de-DE">DSC_2423.JPG</custom-attribute>
+<custom-attribute name="img_picture4" dt:dt="img" xml:lang="de-DE">DSC_2424.JPG</custom-attribute>
+<custom-attribute name="img_picture5" dt:dt="img" xml:lang="de-DE">IMG_8841.jpg</custom-attribute>
+<custom-attribute name="length" dt:dt="string" xml:lang="de-DE"><![CDATA[Länge:&nbsp;0,86]]></custom-attribute>
+<custom-attribute name="hight" dt:dt="string" xml:lang="de-DE"><![CDATA[Höhe:&nbsp;1,25]]></custom-attribute>
+<custom-attribute name="deep" dt:dt="string" xml:lang="de-DE"><![CDATA[Breite:&nbsp;0,34]]></custom-attribute>
+<custom-attribute name="dispatch" dt:dt="string" xml:lang="de-DE"><![CDATA[Holz ist ein Naturprodukt, und Möbelstücke aus 
+derartig recyceltem Holz haben einen ganz eigenen Charme, weil das Holz eine unverwechselbare Spur der Zeit hat.
+Die Möbel haben ein rustikales Dekor, ideal geschaffen für Hotels, für Restaurants und Bars mit rustikalem Ambiente, 
+für Gärten und für die Innenausstattung des Hauses.<br/> 
+<br/> Deshalb arbeiten wir nur mit erstklassigen Möbelspediteuren zusammen, um eine reibungslose Zustellung unserer Möbel garantieren zu können. 
+Unsere Möbel werden nicht im KIT ausgeliefert, sondern sind komplette Möbelstücke aus altem Holz, sodass wir daher jeden Transport einzeln nach Volumen berechnen müssen. Schubladen, sowie die Teile die nicht sichtbar sind, sind auch komplett aus massivem Holz handwerklich verarbeitet.
+]]></custom-attribute>
+</custom-attributes>
+</product>
+<product sku="4715">
+<sku>4715</sku>
+<name xml:lang="de-DE">Couch</name>
+<catalog id="couch">Couch</catalog>
+<online>1</online>
+<description><![CDATA[Eine Couch aus geflochtenem Naturmaterial ist ideal für die Terrasse oder den Wintergarten. Sie strahlt Wärme und Geborgenheit aus, und sorgt für ein warmes Ambiente mit kuscheligen Kissen, auf dem es sich mit Vergnügen ausruhen lässt. <br/>
+Diese Couch kann ebenfalls für große oder kleine Räume für sie nach Maß angefertigt werden. Durch das Naturmaterial, kann die Struktur unterschiedliche Schattierungen bekommen. 
+]]></description>
+<short-description><![CDATA[&nbsp;]]></short-description>
+<custom-attributes>
+<custom-attribute name="img_mediumpicture" dt:dt="img" xml:lang="de-DE">IMG_8816.jpg</custom-attribute>
+<custom-attribute name="img_minipicture" dt:dt="img" xml:lang="de-DE">IMG_8824.jpg</custom-attribute>
+<custom-attribute name="img_picture1" dt:dt="img" xml:lang="de-DE">IMG_8826.jpg</custom-attribute>
+<custom-attribute name="img_picture2" dt:dt="img" xml:lang="de-DE">IMG_8831.jpg</custom-attribute>
+<custom-attribute name="img_picture3" dt:dt="img" xml:lang="de-DE">DSC_2979.JPG</custom-attribute>
+<custom-attribute name="length" dt:dt="string" xml:lang="de-DE"><![CDATA[Länge:&nbsp;1,68]]></custom-attribute>
+<custom-attribute name="hight" dt:dt="string" xml:lang="de-DE"><![CDATA[Höhe:&nbsp;0,71]]></custom-attribute>
+<custom-attribute name="deep" dt:dt="string" xml:lang="de-DE"><![CDATA[Breite:&nbsp;0,92]]></custom-attribute>
+<custom-attribute name="dispatch" dt:dt="string" xml:lang="de-DE"><![CDATA[Holz ist ein Naturprodukt, und Möbelstücke aus 
+derartig recyceltem Holz haben einen ganz eigenen Charme, weil das Holz eine unverwechselbare Spur der Zeit hat.
+Die Möbel haben ein rustikales Dekor, ideal geschaffen für Hotels, für Restaurants und Bars mit rustikalem Ambiente, 
+für Gärten und für die Innenausstattung des Hauses.<br/> 
+<br/> Deshalb arbeiten wir nur mit erstklassigen Möbelspediteuren zusammen, um eine reibungslose Zustellung unserer Möbel garantieren zu können. 
+Unsere Möbel werden nicht im KIT ausgeliefert, sondern sind komplette Möbelstücke aus altem Holz, sodass wir daher jeden Transport einzeln nach Volumen berechnen müssen. Schubladen, sowie die Teile die nicht sichtbar sind, sind auch komplett aus massivem Holz handwerklich verarbeitet.
+]]></custom-attribute>
+</custom-attributes>
+</product>
+<product sku="4716">
+<sku>4716</sku>
+<name xml:lang="de-DE">Couchtisch groß</name>
+<catalog id="couchtable">Couchtisch</catalog>
+<category id="big">groß</category>
+<online>1</online>
+<description><![CDATA[Ein Couchtisch darf schon mal Größer sein. Platz für Gläser wenn Gäste kommen, die Abend Lektüre oder einfach ein großer Strauß Blumen zur Dekoration, dass muss schon sein.
+Je nach Belieben, kann dieser Tisch ein zusätzliches elegantes Eisengitter bekommen, um zusätzlichen Platz für Zeitschriften, Bücher oder andere Dinge zu verstauen. So hat man einen praktischen Platz, und alles ist schnell da wo es sein soll.</br>
+Es kann gemütlich und praktisch zugleich sein, da die Glasplatte all das aushält, und doch das Gewicht dieser nicht so schwer ist, um es leicht zu reinigen.<br/>
+Zusätzlich könnte die Glasplatte auch durch Steine, weiteres Holz in verschiedenen Farbtönen verarbeitet werden. Vor einem Kamin kommt dieser Tisch ganz besonders zu Geltung. 
+]]></description>
+<short-description><![CDATA[&nbsp;]]></short-description>
+<custom-attributes>
+<custom-attribute name="img_mediumpicture" dt:dt="img" xml:lang="de-DE">DSC_1661.JPG</custom-attribute>
+<custom-attribute name="img_minipicture" dt:dt="img" xml:lang="de-DE">DSC_1666.JPG</custom-attribute>
+<custom-attribute name="img_picture1" dt:dt="img" xml:lang="de-DE">DSC_1671.JPG</custom-attribute>
+<custom-attribute name="img_picture2" dt:dt="img" xml:lang="de-DE">IMG_8790.jpg</custom-attribute>
+<custom-attribute name="img_picture3" dt:dt="img" xml:lang="de-DE">IMG_8897.JPG</custom-attribute>
+<custom-attribute name="length" dt:dt="string" xml:lang="de-DE"><![CDATA[Länge:&nbsp:1,68]]></custom-attribute>
+<custom-attribute name="hight" dt:dt="string" xml:lang="de-DE"><![CDATA[Höhe:&nbsp;0,71]]></custom-attribute>
+<custom-attribute name="deep" dt:dt="string" xml:lang="de-DE"><![CDATA[Breite:&nbsp;0,92]]></custom-attribute>
+<custom-attribute name="dispatch" dt:dt="string" xml:lang="de-DE"><![CDATA[Holz ist ein Naturprodukt, und Möbelstücke aus 
+derartig recyceltem Holz haben einen ganz eigenen Charme, weil das Holz eine unverwechselbare Spur der Zeit hat.
+Die Möbel haben ein rustikales Dekor, ideal geschaffen für Hotels, für Restaurants und Bars mit rustikalem Ambiente, 
+für Gärten und für die Innenausstattung des Hauses.<br/> 
+<br/> Deshalb arbeiten wir nur mit erstklassigen Möbelspediteuren zusammen, um eine reibungslose Zustellung unserer Möbel garantieren zu können. 
+Unsere Möbel werden nicht im KIT ausgeliefert, sondern sind komplette Möbelstücke aus altem Holz, sodass wir daher jeden Transport einzeln nach Volumen berechnen müssen. Schubladen, sowie die Teile die nicht sichtbar sind, sind auch komplett aus massivem Holz handwerklich verarbeitet.
+]]></custom-attribute>
+</custom-attributes>
+</product>
+<product sku="4717">
+<sku>4717</sku>
+<name xml:lang="de-DE">Couchtisch klein</name>
+<catalog id="couchtable">Couchtisch</catalog>
+<category id="small">klein</category>
+<online>1</online>
+<description><![CDATA[Die Besitzer dieses Couchtisches sind einfach nur glücklich. Schlicht, sehr Stabil, einfach auf seine Art, Rustikal, und nicht zu groß und nicht zu klein. Einfach perfekt für ein Wohnzimmer mit beschränken Platz.<br/> 
+Da dieser er nicht zu groß ist, könnte man ihn auch als Beistelltisch verwenden. Genuss für ein ganzes Leben.  
+]]></description>
+<short-description><![CDATA[&nbsp;]]></short-description>
+<custom-attributes>
+<custom-attribute name="img_mediumpicture" dt:dt="img" xml:lang="de-DE">DSC_2724.JPG</custom-attribute>
+<custom-attribute name="img_minipicture" dt:dt="img" xml:lang="de-DE">DSC_2725.JPG</custom-attribute>
+<custom-attribute name="img_picture1" dt:dt="img" xml:lang="de-DE">DSC_2726.JPG</custom-attribute>
+<custom-attribute name="img_picture2" dt:dt="img" xml:lang="de-DE">DSC_2727.JPG</custom-attribute>
+<custom-attribute name="length" dt:dt="string" xml:lang="de-DE"><![CDATA[Länge:&nbsp;1,00]]></custom-attribute>
+<custom-attribute name="hight" dt:dt="string" xml:lang="de-DE"><![CDATA[Höhe:&nbsp;0,40]]></custom-attribute>
+<custom-attribute name="deep" dt:dt="string" xml:lang="de-DE"><![CDATA[Breite:&nbsp;0,40]]></custom-attribute>
+<custom-attribute name="dispatch" dt:dt="string" xml:lang="de-DE"><![CDATA[Holz ist ein Naturprodukt, und Möbelstücke aus 
+derartig recyceltem Holz haben einen ganz eigenen Charme, weil das Holz eine unverwechselbare Spur der Zeit hat.
+Die Möbel haben ein rustikales Dekor, ideal geschaffen für Hotels, für Restaurants und Bars mit rustikalem Ambiente, 
+für Gärten und für die Innenausstattung des Hauses.<br/> 
+<br/> Deshalb arbeiten wir nur mit erstklassigen Möbelspediteuren zusammen, um eine reibungslose Zustellung unserer Möbel garantieren zu können. 
+Unsere Möbel werden nicht im KIT ausgeliefert, sondern sind komplette Möbelstücke aus altem Holz, sodass wir daher jeden Transport einzeln nach Volumen berechnen müssen. Schubladen, sowie die Teile die nicht sichtbar sind, sind auch komplett aus massivem Holz handwerklich verarbeitet.
+]]></custom-attribute>
+</custom-attributes>
+</product>
+<product sku="4718">
+<sku>4718</sku>
+<name xml:lang="de-DE">Couchtisch stein</name>
+<catalog id="couchtable">Couchtisch</catalog>
+<category id="small">stein</category>
+<online>1</online>
+<description><![CDATA[Diese außergewöhnlichen Steine, die ihre natürliche Form an einem speziellen Ort in Chile von der Natur erhalten haben, und einen sehr weiten Weg hinter sich haben, geben diesem Tisch eine ganz besondere Note. Dadurch wird dieser Tisch definitiv ein Unikat und unterstreicht dabei seine Exklusivität. Als Beistelltisch einsetzbar, oder als Couchtisch, haben Sie bestimmt sehr lange Spaß daran. Auf dieses Möbelstück sind wir alle ganz besonders stolz.]]></description>
+<short-description><![CDATA[&nbsp;]]></short-description>
+<custom-attributes>
+<custom-attribute name="img_mediumpicture" dt:dt="img" xml:lang="de-DE">DSC_2715.JPG</custom-attribute>
+<custom-attribute name="img_minipicture" dt:dt="img" xml:lang="de-DE">DSC_2716.JPG</custom-attribute>
+<custom-attribute name="img_picture1" dt:dt="img" xml:lang="de-DE">DSC_2717.JPG</custom-attribute>
+<custom-attribute name="img_picture2" dt:dt="img" xml:lang="de-DE">DSC_2718.JPG</custom-attribute>
+<custom-attribute name="img_picture3" dt:dt="img" xml:lang="de-DE">DSC_2719.JPG</custom-attribute>
+<custom-attribute name="img_picture4" dt:dt="img" xml:lang="de-DE">DSC_2720.JPG</custom-attribute>
+<custom-attribute name="img_picture5" dt:dt="img" xml:lang="de-DE">DSC_2721.JPG</custom-attribute>
+<custom-attribute name="img_picture6" dt:dt="img" xml:lang="de-DE">DSC_2975.JPG</custom-attribute>
+<custom-attribute name="img_picture7" dt:dt="img" xml:lang="de-DE">DSC_2979.JPG</custom-attribute>
+<custom-attribute name="length" dt:dt="string" xml:lang="de-DE"><![CDATA[Länge:&nbsp;0,67]]></custom-attribute>
+<custom-attribute name="hight" dt:dt="string" xml:lang="de-DE"><![CDATA[Höhe:&nbsp;0,86]]></custom-attribute>
+<custom-attribute name="deep" dt:dt="string" xml:lang="de-DE"><![CDATA[Breite:&nbsp;0,64]]></custom-attribute>
+<custom-attribute name="dispatch" dt:dt="string" xml:lang="de-DE"><![CDATA[Holz ist ein Naturprodukt, und Möbelstücke aus 
+derartig recyceltem Holz haben einen ganz eigenen Charme, weil das Holz eine unverwechselbare Spur der Zeit hat.
+Die Möbel haben ein rustikales Dekor, ideal geschaffen für Hotels, für Restaurants und Bars mit rustikalem Ambiente, 
+für Gärten und für die Innenausstattung des Hauses.<br/> 
+<br/> Deshalb arbeiten wir nur mit erstklassigen Möbelspediteuren zusammen, um eine reibungslose Zustellung unserer Möbel garantieren zu können. 
+Unsere Möbel werden nicht im KIT ausgeliefert, sondern sind komplette Möbelstücke aus altem Holz, sodass wir daher jeden Transport einzeln nach Volumen berechnen müssen. Schubladen, sowie die Teile die nicht sichtbar sind, sind auch komplett aus massivem Holz handwerklich verarbeitet.
+]]></custom-attribute>
+</custom-attributes>
+</product>
+<product sku="4719">
+<sku>4719</sku>
+<name xml:lang="de-DE">Deckenlampe</name>
+<catalog id="overheadsLights">deckenlampe</catalog>
+<online>1</online>
+<description><![CDATA[Wenn die Decken niedrig sind und trotzdem viel Licht benötigt wird, dann ist eine breite aber doch dünne Lampe nötig. Genau diese Lampe erfüllt diese Wünsche des neuen Besitzers, sie ist mit besonderem Papier hergestellt, welches ein sehr schönes warmes gleichmäßiges Licht erzeugt.<br/>
+Weitere Lampen könnten noch schlichter, oder mit anderen Papiermustern hergestellt werden.
+Dem Einsatz von verschieden Farben und Mustern sind praktisch keine Grenzen gesetzt.
+Die gesamte Herstellung dieser Lampe erfolgt in Handarbeit, vom Lampenschirm bis zum Herstellen des Papiers.
+ <br/>In der Form mit diesem besonderem Material, definitiv ein auch <strong>Unikat<strong>.
+]]></description>
+<short-description><![CDATA[&nbsp;]]></short-description>
+<custom-attributes>
+<custom-attribute name="img_mediumpicture" dt:dt="img" xml:lang="de-DE">IMG_8894.jpg</custom-attribute>
+<custom-attribute name="img_minipicture" dt:dt="img" xml:lang="de-DE">IMG_8896.JPG</custom-attribute>
+<custom-attribute name="range" dt:dt="string" xml:lang="de-DE"><![CDATA[Durchmesser:&nbsp;1,00]]></custom-attribute>
+<custom-attribute name="dispatch" dt:dt="string" xml:lang="de-DE"><![CDATA[Holz ist ein Naturprodukt, und Möbelstücke aus 
+derartig recyceltem Holz haben einen ganz eigenen Charme, weil das Holz eine unverwechselbare Spur der Zeit hat.
+Die Möbel haben ein rustikales Dekor, ideal geschaffen für Hotels, für Restaurants und Bars mit rustikalem Ambiente, 
+für Gärten und für die Innenausstattung des Hauses.<br/> 
+<br/> Deshalb arbeiten wir nur mit erstklassigen Möbelspediteuren zusammen, um eine reibungslose Zustellung unserer Möbel garantieren zu können. 
+Unsere Möbel werden nicht im KIT ausgeliefert, sondern sind komplette Möbelstücke aus altem Holz, sodass wir daher jeden Transport einzeln nach Volumen berechnen müssen. Schubladen, sowie die Teile die nicht sichtbar sind, sind auch komplett aus massivem Holz handwerklich verarbeitet.
+]]></custom-attribute>
+</custom-attributes>
+</product>
+<product sku="4720">
+<sku>4720</sku>
+<name xml:lang="de-DE">Fernsehschrank</name>
+<catalog id="tvcabinet">fernschränke</catalog>
+<online>1</online>
+<description><![CDATA[Die ist ein nach Auftrag exakt nach Maß angefertigter Fernsehschrank. Nirgends auf dem Markt konnten die Hausbesitzer solch ein Möbelstück mit dieser Qualität und Maß finden. Wir haben es möglich gemacht. Viel Stauraum für die Lieblingsfilme, und weitere Dinge die hier ihren richtigen Platz gefunden haben, und doch nicht gleich sichtbar sind. Die Griffe mag ich ganz besonders, sie geben diesem Möbelstück eine ganz besondere Antikoptik.<br/>
+Auf Wunsch wären auch Schlösser für die Schubladen möglich.]]></description>
+<short-description><![CDATA[Die Griffe mag ich besonders, da sie mich an die alten Apotheken Schubladen Griffe erinnern.]]></short-description>
+<custom-attributes>
+<custom-attribute name="img_mediumpicture" dt:dt="img" xml:lang="de-DE">DSC_2723.JPG</custom-attribute>
+<custom-attribute name="img_minipicture" dt:dt="img" xml:lang="de-DE">DSC_2722.JPG</custom-attribute>
+<custom-attribute name="img_picture1" dt:dt="img" xml:lang="de-DE">DSC_2046.JPG</custom-attribute>
+<custom-attribute name="img_picture2" dt:dt="img" xml:lang="de-DE">DSC_2041.JPG</custom-attribute>
+<custom-attribute name="length" dt:dt="string" xml:lang="de-DE"><![CDATA[Länge:&nbsp;1,00]]></custom-attribute>
+<custom-attribute name="hight" dt:dt="string" xml:lang="de-DE"><![CDATA[Höhe:&nbsp;0,86]]></custom-attribute>
+<custom-attribute name="deep" dt:dt="string" xml:lang="de-DE"><![CDATA[Breite:&nbsp;0,40]]></custom-attribute>
+<custom-attribute name="dispatch" dt:dt="string" xml:lang="de-DE"><![CDATA[Holz ist ein Naturprodukt, und Möbelstücke aus 
+derartig recyceltem Holz haben einen ganz eigenen Charme, weil das Holz eine unverwechselbare Spur der Zeit hat.
+Die Möbel haben ein rustikales Dekor, ideal geschaffen für Hotels, für Restaurants und Bars mit rustikalem Ambiente, 
+für Gärten und für die Innenausstattung des Hauses.<br/> 
+<br/> Deshalb arbeiten wir nur mit erstklassigen Möbelspediteuren zusammen, um eine reibungslose Zustellung unserer Möbel garantieren zu können. 
+Unsere Möbel werden nicht im KIT ausgeliefert, sondern sind komplette Möbelstücke aus altem Holz, sodass wir daher jeden Transport einzeln nach Volumen berechnen müssen. Schubladen, sowie die Teile die nicht sichtbar sind, sind auch komplett aus massivem Holz handwerklich verarbeitet.
+]]></custom-attribute>
+</custom-attributes>
+</product>
+<product sku="4721">
+<sku>4721</sku>
+<name xml:lang="de-DE">Hotel am Schlosspark</name>
+<catalog id="hotelschlosspark">Hotel</catalog>
+<online>1</online>
+<description><![CDATA[Für die Wellness Abteilung des Hotels am Schlosspark in Gotha wurde renoviert, und dabei hatten wir die tolle Gelegenheit spannende Ideen umzusetzen.
+Im Eingangsbereich des Hotels begegnen wir dem ersten Stück. Einem Lampenschirm aus besonderem Papier von einem Meter Durchmesser, dessen Wärme sofort wirkt und einladend erscheint. Zusätzlich erhielten die Lampenschirme im Rezeptionsbereich zur Dekoration, verschiedene Gräser, die per Hand eingearbeitet wurden. Somit entstanden wieder echte Unikate, die diesem Raum besondere Wärme und Geborgenheit geben. 
+]]></description>
+<short-description><![CDATA[&nbsp;]]></short-description>
+<custom-attributes>
+<custom-attribute name="img_mediumpicture" dt:dt="img" xml:lang="de-DE">DSC_2768.JPG</custom-attribute>
+<custom-attribute name="img_minipicture" dt:dt="img" xml:lang="de-DE">DSC_2766.JPG</custom-attribute>
+<custom-attribute name="img_picture1" dt:dt="img" xml:lang="de-DE">DSC_2760.JPG</custom-attribute>
+
+<custom-attribute name="length" dt:dt="string" xml:lang="de-DE"><![CDATA[Länge:&nbsp;1,00]]></custom-attribute>
+<custom-attribute name="hight" dt:dt="string" xml:lang="de-DE"><![CDATA[Höhe:&nbsp;0,86]]></custom-attribute>
+<custom-attribute name="deep" dt:dt="string" xml:lang="de-DE"><![CDATA[Breite:&nbsp;0,40]]></custom-attribute>
+<custom-attribute name="dispatch" dt:dt="string" xml:lang="de-DE"><![CDATA[Holz ist ein Naturprodukt, und Möbelstücke aus 
+derartig recyceltem Holz haben einen ganz eigenen Charme, weil das Holz eine unverwechselbare Spur der Zeit hat.
+Die Möbel haben ein rustikales Dekor, ideal geschaffen für Hotels, für Restaurants und Bars mit rustikalem Ambiente, 
+für Gärten und für die Innenausstattung des Hauses.<br/> 
+<br/> Deshalb arbeiten wir nur mit erstklassigen Möbelspediteuren zusammen, um eine reibungslose Zustellung unserer Möbel garantieren zu können. 
+Unsere Möbel werden nicht im KIT ausgeliefert, sondern sind komplette Möbelstücke aus altem Holz, sodass wir daher jeden Transport einzeln nach Volumen berechnen müssen. Schubladen, sowie die Teile die nicht sichtbar sind, sind auch komplett aus massivem Holz handwerklich verarbeitet.
+]]></custom-attribute>
+</custom-attributes>
+</product>
+<product sku="4722">
+<sku>4722</sku>
+<name xml:lang="de-DE">Haustür</name>
+<catalog id="Haustuer">Haustür</catalog>
+<online>1</online>
+<description><![CDATA[Nach dem die Besitzer dieses Hauses lange Zeit sich mit der Suche der richtigen Haustür beschäftigt haben, sind sie zu der Erkenntnis gekommen, dass es auf dem Markt keine gibt, die Ihren Vorstellungen entspricht. 
+Der Rahmen und die Tür sind exclusiv gebaut worden. Und war dabei für alle Beteiligten eine große Herausforderung. Der Griff mit seinem besonderem Design sollte unbedingt in Größe und Stärke zur Haustür stehen. Dabei half ein Schmiedemeister mit einer uralten Schmiedetechnik.
+Dabei durften natürlich nicht die Anforderungen einer guten Hausratversicherung außer acht gelassen werden.
+Diese Haustür steht für die besondere Exklusivität, die diese Tür für den Hausbewohner zum Ausdruck bringt.]]></description>
+<short-description><![CDATA[&nbsp;]]></short-description>
+<custom-attributes>
+<custom-attribute name="img_mediumpicture" dt:dt="img" xml:lang="de-DE">DSC_2758.JPG</custom-attribute>
+<custom-attribute name="img_minipicture" dt:dt="img" xml:lang="de-DE">DSC_2759.JPG</custom-attribute>
+<custom-attribute name="img_picture1" dt:dt="img" xml:lang="de-DE">DSC_1691.JPG</custom-attribute>
+<custom-attribute name="hight" dt:dt="string" xml:lang="de-DE"><![CDATA[Höhe:&nbsp;2,23]]></custom-attribute>
+<custom-attribute name="deep" dt:dt="string" xml:lang="de-DE"><![CDATA[Breite:&nbsp;1,70]]></custom-attribute>
+<custom-attribute name="dispatch" dt:dt="string" xml:lang="de-DE"><![CDATA[Holz ist ein Naturprodukt, und Möbelstücke aus 
+derartig recyceltem Holz haben einen ganz eigenen Charme, weil das Holz eine unverwechselbare Spur der Zeit hat.
+Die Möbel haben ein rustikales Dekor, ideal geschaffen für Hotels, für Restaurants und Bars mit rustikalem Ambiente, 
+für Gärten und für die Innenausstattung des Hauses.<br/> 
+<br/> Deshalb arbeiten wir nur mit erstklassigen Möbelspediteuren zusammen, um eine reibungslose Zustellung unserer Möbel garantieren zu können. 
+Unsere Möbel werden nicht im KIT ausgeliefert, sondern sind komplette Möbelstücke aus altem Holz, sodass wir daher jeden Transport einzeln nach Volumen berechnen müssen. Schubladen, sowie die Teile die nicht sichtbar sind, sind auch komplett aus massivem Holz handwerklich verarbeitet.
+]]></custom-attribute>
+</custom-attributes>
+</product>
+</immeweb>

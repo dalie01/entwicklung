@@ -1,0 +1,48 @@
+@CHARSET "ISO-8859-1";
+.content {
+	padding: 10px 0px 0px 0px;
+}
+.br {
+	display:block;
+}
+
+.fancybox-custom .fancybox-skin {
+	box-shadow: 0 10px 80px #222;
+}
+
+div#HistoryPage img {
+	border: 1px solid #433320;
+	box-shadow: 0 0 30px #222;
+	padding: 0.2em;
+	cursor:pointer;
+}
+
+div#HistoryPage p {
+     line-height: 22px ;
+      font-size: 16px;
+      font-family: Georgia, serif;
+      font-style: italic;
+    text-align: justify;
+    word-spacing: normal;
+}
+
+div#HistoryPage img.floatLeft {
+       float: left ;
+       margin: 10px 10px 1px 1px ;      
+}
+div#HistoryPage img.floatRight{
+       float: right ;
+       margin: 10px 10px 1px 10px ;
+}
+div#HistoryPage img.floatLeftClear {
+    float: left;
+    clear: left;
+    margin: 10px 10px 1px 1px;
+}
+div#HistoryPage img.floatRightClear {
+    float: right;
+    clear: right;
+    margin: 10px 10px 1px 10px;
+}
+
+

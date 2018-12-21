@@ -1,0 +1,49 @@
+@CHARSET "ISO-8859-1";
+@IMPORT url("mobile.box.a.css");
+
+div.ui-box-head-d, 
+	div.ui-box-head-toggle-d {
+	background: linear-gradient(#ECE5DB, #DACDB9) repeat scroll 0 0 #DFDFDF; 
+	margin-top: 2px;
+	padding: 20px;
+	border: 2px solid #ddd;
+	border-radius: 0.6em;
+    -webkit-border-radius: 0.6em;
+}
+
+div.ui-box-head-d:HOVER {
+	cursor: pointer;
+}
+
+div.ui-box-head-d>p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #4d4e53;
+	text-decoration: none;
+	word-spacing: -0.1em;
+	text-align: left;
+	letter-spacing: 0;
+	line-height: 1.0em;
+}
+
+div.ui-box-head-toggle-d {
+    border-bottom-left-radius: 0.2em;
+    -webkit-border-bottom-left-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
+    -webkit-border-bottom-right-radius: 0.2em;
+	
+}
+
+div.ui-box-context-d {
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-radius: 0.6em;
+    -webkit-border-radius: 0.6em;
+	border-top-left-radius: 0.2em;
+    -webkit-border-top-left-radius: 0.2em;
+    border-top-right-radius: 0.2em;
+    -webkit-border-top-right-radius: 0.2em;
+}
+

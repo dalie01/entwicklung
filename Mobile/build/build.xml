@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Mobile" default="build" basedir="../">
+
+	<property file="${basedir}/build/build.properties" />
+
+	<path id="mobile.classpath">
+		<fileset dir="${mobile.tomcat.lib}" includes="*.jar" />
+		<fileset dir="${basedir}/WebContent/WEB-INF/lib" includes="*.jar" />
+	</path>
+
+	<tstamp prefix="build-info">
+		<format property="current-date" pattern="d-MMMM-yyyy" locale="en" />
+		<format property="current-time" pattern="hh:mm:ss a z" locale="en" />
+		<format property="year-month-day" pattern="yyyy-MM-dd" locale="en" />
+	</tstamp>
+
+	<target name="build" depends="init, compile">
+		<echo message="${project.name} - build" />
+	</target>
+
+	<target name="clean">
+		<delete dir="${basedir}/WebContent/WEB-INF/classes" />
+	</target>
+
+	<target name="init" depends="build-subprojects">
+		<mkdir dir="${basedir}/WebContent/WEB-INF/classes" />
+		<copy includeemptydirs="false" todir="${basedir}/WebContent/WEB-INF/classes">
+			<fileset dir="${basedir}${src.dir}">
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+		<copy file="${dalieDatabase.location}/dalieDatabase.jar" todir="${basedir}/WebContent/WEB-INF/lib" />
+		<copy file="${dalieUtils.location}/dalieUtils.jar" todir="${basedir}/WebContent/WEB-INF/lib" />
+	</target>
+
+	<target name="build-subprojects">
+		<ant antfile="${basedir}/../dalieCore/build/build.xml" inheritAll="false" target="build-project" />
+		<ant antfile="${basedir}/../dalieDatabase/build/build.xml" inheritAll="false" target="build-project" />
+		<ant antfile="${basedir}/../dalieUtils/build/build.xml" inheritAll="false" target="build-project" />
+	</target>
+
+	<target name="compile">
+		<javac debug="true" debuglevel="${debuglevel}" destdir="${basedir}/WebContent/WEB-INF/classes" source="${source}" target="${target}" includeantruntime="false">
+			<src path="${basedir}${src.dir}" />
+			<classpath refid="mobile.classpath" />
+		</javac>
+	</target>
+
+	<target name="war">
+		<delete file="${basedir}/build/${project.name}.war" />
+		<war destfile="${basedir}/build/${project.name}.war" webxml="${basedir}/WebContent/WEB-INF/web.xml">
+			<classes dir="${basedir}/WebContent/WEB-INF/" />
+			<fileset dir="${basedir}/WebContent">
+				<exclude name="WEB-INF/web.xml" />
+			</fileset>
+			<manifest>
+				<attribute name="Built-By" value="${builder}" />
+				<attribute name="Built-On" value="${build-info.current-date}" />
+				<attribute name="Built-At" value="${build-info.current-time}" />
+			</manifest>
+		</war>
+	</target>
+
+</project>

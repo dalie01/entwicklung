@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="dalieDatabase"  xmlns:ivy= "antlib:org.apache.ivy.ant" default="build" basedir="../">
+	<property file="${basedir}/build/build.properties"/>
+
+	<target name="resolve">
+		<echo message="${project.name} - ivy.resolve"/>
+		<ivy:configure file="${basedir}/build/ivysettings.xml" />
+		<ivy:resolve file="${basedir}/build/ivy.xml" conf="default" transitive="false" />
+		<ivy:retrieve sync="true" type="jar,bundle,ejb,maven-plugin" pattern="lib/[type]s/[artifact]-[revision].[ext]" transitive="false" />
+	</target>
+	
+	<path id="dalieDatabase.classpath">
+		<fileset dir="${basedir}/lib">
+			<include name="**/*.jar"/>
+		</fileset>
+	</path>
+
+	<tstamp prefix="build-info">
+		<format property="current-date" pattern="d-MMMM-yyyy" locale="en" />
+		<format property="current-time" pattern="hh:mm:ss a z" locale="en" />
+		<format property="year-month-day" pattern="yyyy-MM-dd" locale="en" />
+	</tstamp>
+
+	<target name="build-subprojects">
+		<ant antfile="${basedir}/../dalieCore/build/build.xml" inheritAll="false" target="build-project" />
+	</target>
+	
+	<target depends="clean, init, compile, jar" name="build">
+		<echo message="${project.name} - build"/>
+	</target>
+
+	<target depends="clean, init, compile, jar" name="build-project">
+		<echo message="${project.name} - build.project"/>
+	</target>
+
+	<target name="clean">
+		<delete dir="${basedir}/build/classes"/>
+	</target>
+
+	<target name="init" depends="resolve, build-subprojects" >
+		<mkdir dir="${basedir}/build/classes"/>
+		<copy includeemptydirs="false" todir="${basedir}/build/classes">
+			<fileset dir="${basedir}${src.dir}">
+				<exclude name="**/*.java"/>
+			</fileset>
+		</copy>
+		<copy file="${dalieCore.location}/dalieCore.jar" todir="${basedir}/lib/jars" />
+	</target>
+
+	<target name="compile">
+		<javac debug="true" debuglevel="${debuglevel}" destdir="${basedir}/build/classes" source="${source}" target="${target}" includeantruntime="false">
+			<src path="${basedir}${src.dir}" />
+			<classpath refid="dalieDatabase.classpath" />
+		</javac>
+	</target>
+
+	<target name="jar">
+		<delete file="${basedir}/build/${project.name}.jar"/>
+		<jar basedir="${basedir}/build/classes" destfile="${basedir}/build/${project.name}.jar">
+			<manifest>
+				<attribute name="Built-By" value="${builder}" />
+				<attribute name="Built-On" value="${build-info.current-date}" />
+				<attribute name="Built-At" value="${build-info.current-time}" />
+			</manifest>
+			<zipgroupfileset dir="${basedir}/lib" includes="**/*.jar"/>
+		</jar>
+
+	</target>
+
+	<target name="dbinit" depends="jar">
+		<echo message="${project.name} - dbinit.project"/>
+	      <java classname="database.Utils.DbInit">
+	         <arg line="admin@test.com"/>
+	      	<classpath>
+	      		<pathelement location= "${basedir}/build/dalieDatabase.jar" />
+	      	</classpath>
+	      </java>
+	</target>
+
+
+	<target name="dbmigrate" description="dbmigrate" depends="clean, build">
+		<echo message="${project.name} - dbmigrate.project ${bversion}"/>
+		<java classname="database.Utils.internal.DbMigrate">
+			<arg line="${bversion}"/>
+			<classpath>
+				<pathelement location= "${basedir}/build/dalieDatabase.jar" />
+			</classpath>
+		</java>
+	</target>
+
+</project>

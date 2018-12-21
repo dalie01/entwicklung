@@ -1,0 +1,33 @@
+@CHARSET "ISO-8859-1";
+/* no border / and spacing */
+table {
+   	margin: 0px 0px;
+}
+td {
+	border: 0px solid #FFFFFF;
+    padding: 0px 1px 0px 0px;
+    cursor:pointer;
+}
+table.immePeak {
+	margin-top: 10px;
+	background-color: #82794A;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+  	-ms-border-radius: 8px;
+  	-o-border-radius: 8px;	
+  	border-radius: 8px;
+}
+td.space {
+	padding: 0px 10px 0px 10px;
+}
+
+div.slogan {
+	color: rgb(67,51,32);
+	font-size: 1.535em;
+	font-family: Book Antiqua, Verdana, arial, helvetica, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	padding-left: 0.700em;
+	margin: 10px 0px 20px 0px;
+	white-space: nowrap;
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<project xmlns:ivy= "antlib:org.apache.ivy.ant" default= "build" basedir= "../">
+	<property file= "${basedir}/build/build.properties" />
+
+	<target name="resolve">
+		<ivy:configure file="${basedir}/build/ivysettings.xml" />
+		<ivy:resolve file="${basedir}/build/ivy.xml" conf="default" transitive="false" />
+		<ivy:retrieve sync="true" type="jar,bundle,ejb,maven-plugin" pattern="lib/[type]s/[artifact]-[revision].[ext]" transitive="false" />
+	</target>
+
+	<path id="dalieJava.classpath">
+		<fileset dir= "${basedir}/lib" includes= "**/*.jar" />
+	</path>
+	
+
+	<target name="build" depends="init, compile, compress, myTarget" description="compile and compress">
+		<echo>
+            Building the .jar file.
+        </echo>
+	</target>
+	<target name="clean" >
+		<delete dir= "${basedir}/classes" />
+	</target>
+	<target name= "init" depends= "clean, resolve">
+		<mkdir dir= "${basedir}/classes" />
+		<copy includeemptydirs="false" todir="${basedir}/classes">
+			<fileset dir= "${basedir}/src">
+				<exclude name= "**/*.java" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="compile" description= "Compilation target">
+		<javac debug="true" debuglevel= "${debuglevel}" destdir= "${basedir}/classes" source="${source}" target="${target}" includeantruntime="false">
+			<src path="${basedir}/src" />
+			<classpath refid= "dalieJava.classpath" />
+		</javac>
+	</target>
+
+	<target name="compress" description= "Compression target">
+		<jar destfile="${basedir}/build/dalieJava.jar" basedir="${basedir}/classes">
+			<fileset dir= "${basedir}/resources" />
+			<zipgroupfileset dir= "${basedir}/lib" includes= "**/*.jar"/>
+		</jar>
+	</target>
+
+	<target name= "myTarget" description= "runs my class" >
+		<java classname="dmc.HelloWorld">
+			<classpath>
+				<pathelement location= "${basedir}/build/dalieJava.jar" />
+			</classpath>
+		</java>
+	</target>
+</project>

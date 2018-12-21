@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<immeweb xmlns="http://www.w3.org/1999/xhtml">
+<product sku="Internet Everywhere basic_12">
+<sku>Internet Everywhere basic_12</sku>
+<name xml:lang="de-DE">Internet Everywhere basic</name>
+<online>1</online>
+<description>This is description of product</description>
+<short-description>short description </short-description>
+<custom-attributes>
+<custom-attribute name="img_mediumpicture" dt:dt="img" xml:lang="de-DE">1.1jpg</custom-attribute>
+<custom-attribute name="img_minipicture" dt:dt="img" xml:lang="de-DE">1.2jpg</custom-attribute>
+<custom-attribute name="img_picture1" dt:dt="img" xml:lang="de-DE">1.3jpg</custom-attribute>
+<custom-attribute name="img_picture2" dt:dt="img" xml:lang="de-DE">1.4jpg</custom-attribute>
+<custom-attribute name="dummy" dt:dt="string" xml:lang="de-DE">1.5jpg</custom-attribute>
+<custom-attribute name="Preselected" dt:dt="int">0</custom-attribute>
+</custom-attributes>
+</product>
+<product sku="Internet Everywhere start_12">
+<sku>Internet Everywhere start_12</sku>
+<name xml:lang="de-DE">Internet Everywhere start</name>
+<online>1</online>
+<description>This is description of product</description>
+<short-description>short description </short-description>
+<custom-attributes>
+<custom-attribute name="img_mediumpicture" dt:dt="img" xml:lang="de-DE">2.1jpg</custom-attribute>
+<custom-attribute name="img_minipicture" dt:dt="img" xml:lang="de-DE">2.2jpg</custom-attribute>
+<custom-attribute name="img_picture1" dt:dt="img" xml:lang="de-DE">2.3jpg</custom-attribute>
+<custom-attribute name="img_picture2" dt:dt="img" xml:lang="de-DE">2.4jpg</custom-attribute>
+<custom-attribute name="dummy" dt:dt="string" xml:lang="de-DE">2.5jpg</custom-attribute>
+<custom-attribute name="Preselected" dt:dt="int">0</custom-attribute>
+</custom-attributes>
+</product>
+</immeweb>

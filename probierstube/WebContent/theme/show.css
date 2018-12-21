@@ -1,0 +1,8 @@
+@CHARSET "ISO-8859-1";
+
+img.requests {
+	background: url(../bilder/dalie-icons-pack.gif) -382px -48px no-repeat;
+	height: 22px;
+	width: 21px;
+	margin-right: 3px;
+}

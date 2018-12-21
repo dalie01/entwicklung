@@ -1,0 +1,1 @@
+select * from book where ISBN in (select ISBN from books_by_author where AuthorId = 1);

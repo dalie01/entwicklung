@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+
+table {
+   	margin: 0px 0px;
+}
+td {
+	border: 0px solid #FFFFFF;
+    padding: 0px 1px 0px 0px;
+    cursor:pointer;
+}
+
+table.immePeak {
+	margin-top: 10px;
+	background-color: #82794A;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+  	-ms-border-radius: 8px;
+  	-o-border-radius: 8px;	
+  	border-radius: 8px;
+}
+
+img.immeBorderPeak {
+	box-shadow: 30px 0 80px #222;
+	background-color: #82794A;
+	border-top: 5px solid #82794A;
+	border-right: 4px solid #82794A;
+	border-bottom: 5px solid #82794A;
+	border-left: 6px solid #82794A;
+	cursor:pointer;
+}

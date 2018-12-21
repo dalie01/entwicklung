@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:jsp="http://java.sun.com/xml/ns/javaee/jsp" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="immeweb_01" version="2.5">
+  <display-name>barn-design</display-name>
+  <servlet>
+    <description>History of Barn design</description>
+    <display-name>HistoryPage</display-name>
+    <servlet-name>HistoryPage</servlet-name>
+    <jsp-file>/history/HistoryPage.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HistoryPage</servlet-name>
+    <url-pattern>/HistoryPage</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Concept of Barn design</description>
+    <display-name>ConceptPage</display-name>
+    <servlet-name>ConceptPage</servlet-name>
+    <jsp-file>/concept/ConceptPage.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ConceptPage</servlet-name>
+    <url-pattern>/ConceptPage</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Products of Barn design</description>
+    <display-name>ProductPage</display-name>
+    <servlet-name>ProductPage</servlet-name>
+    <jsp-file>/product/ProductPage.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProductPage</servlet-name>
+    <url-pattern>/ProductPage</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Product of Barn design</description>
+    <display-name>ProductDetailPage</display-name>
+    <servlet-name>ProductDetailPage</servlet-name>
+    <jsp-file>/product/ProductDetailPage.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProductDetailPage</servlet-name>
+    <url-pattern>/ProductDetailPage</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <description>ProductDetail Navigation</description>
+    <display-name>LeftBottom</display-name>
+    <servlet-name>LeftBottom</servlet-name>
+    <jsp-file>/product/productDetailPage/LeftBottom.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LeftBottom</servlet-name>
+    <url-pattern>/LeftBottom</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Contact of Barn design</description>
+    <display-name>ContactPage</display-name>
+    <servlet-name>ContactPage</servlet-name>
+    <jsp-file>/contact/ContactPage.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ContactPage</servlet-name>
+    <url-pattern>/ContactPage</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Start of Barn design</description>
+    <display-name>StartPage</display-name>
+    <servlet-name>StartPage</servlet-name>
+    <jsp-file>/start/StartPage.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StartPage</servlet-name>
+    <url-pattern>/StartPage</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>StartSite, HeaderLogo, Peak</description>
+    <display-name>SiteType</display-name>
+    <servlet-name>SiteType01</servlet-name>
+    <jsp-file>/SiteType/SiteType01.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SiteType01</servlet-name>
+    <url-pattern>/SiteType01</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Header,Content,Footer</description>
+    <display-name>SiteType</display-name>
+    <servlet-name>SiteType02</servlet-name>
+    <jsp-file>/SiteType/SiteType02.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SiteType02</servlet-name>
+    <url-pattern>/SiteType02</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Content</description>
+    <display-name>SiteType</display-name>
+    <servlet-name>SiteType03</servlet-name>
+    <jsp-file>/SiteType/SiteType03.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SiteType03</servlet-name>
+    <url-pattern>/SiteType03</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Page in case of Error</description>
+    <display-name>ErrorPage</display-name>
+    <servlet-name>ErrorPage</servlet-name>
+    <jsp-file>/ErrorPage.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ErrorPage</servlet-name>
+    <url-pattern>/ErrorPage</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Navigation of Immeweb</description>
+    <display-name>ImmeWeb</display-name>
+    <servlet-name>ImmeWeb</servlet-name>
+    <servlet-class>dalie.imme.web.servlet.ImmeWeb</servlet-class>
+  </servlet>
+  <servlet>
+    <description>determine all the navigation options</description>
+    <display-name>ImmeNavi</display-name>
+    <servlet-name>ImmeNavi</servlet-name>
+    <servlet-class>dalie.imme.web.servlet.navi.ImmeNavi</servlet-class>
+  </servlet>
+  <servlet>
+    <description>Determine all valid Products</description>
+    <display-name>ImmeProd</display-name>
+    <servlet-name>ImmeProd</servlet-name>
+    <servlet-class>dalie.imme.web.servlet.product.ImmeProd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>Catalog/Category Helper</description>
+    <display-name>ImmeCata</display-name>
+    <servlet-name>ImmeCata</servlet-name>
+    <servlet-class>dalie.imme.web.servlet.navi.ImmeCata</servlet-class>
+  </servlet>
+    <servlet>
+    <description>Get Product Detail</description>
+    <display-name>ImmeProdDetail</display-name>
+    <servlet-name>ImmeProdDetail</servlet-name>
+    <servlet-class>dalie.imme.web.servlet.product.ImmeProdDetail</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ImmeProdDetail</servlet-name>
+    <url-pattern>/ImmeProdDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImmeCata</servlet-name>
+    <url-pattern>/ImmeCata</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImmeProd</servlet-name>
+    <url-pattern>/ImmeProd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImmeNavi</servlet-name>
+    <url-pattern>/ImmeNavi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImmeWeb</servlet-name>
+    <url-pattern>/ImmeWeb</url-pattern>
+  </servlet-mapping>
+  <session-config>
+    <session-timeout>30</session-timeout>
+  </session-config>
+  <welcome-file-list>
+    <welcome-file>ImmeWeb</welcome-file>
+  </welcome-file-list>
+  <listener>
+  	<listener-class>dalie.imme.web.servlet.ImmeMedia</listener-class>
+  </listener>
+  <jsp-config>
+    <taglib>
+      <taglib-uri>http://java.sun.com/jsp/jstl/core</taglib-uri>
+      <taglib-location></taglib-location>
+    </taglib>
+    <taglib>
+      <taglib-uri>/WEB-INF/TagLibraryDescriptor.tld</taglib-uri>
+      <taglib-location>/WEB-INF/TagLibraryDescriptor.tld</taglib-location>
+    </taglib>
+  </jsp-config>
+</web-app>

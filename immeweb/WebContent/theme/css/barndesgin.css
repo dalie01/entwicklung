@@ -1,0 +1,56 @@
+@CHARSET "ISO-8859-1";
+
+@import url("immeweb.css");
+
+/* set logo style */
+div.logo{
+	padding-top: 3%;
+	cursor:pointer;
+}
+div#navi{
+	position:fixed; 
+	bottom:0px; 
+	right:0px;
+	margin: 0px 20px 15px 0px;
+}
+
+div#navi ul {
+	list-style-type: none;
+}
+
+div#navi ul li {
+	cursor:pointer;
+	font-weight: bold;
+	float: left;
+	margin: 0px 2px 0px 2px;
+	padding: 0px 4px 0px 4px;
+	border: 1px solid #fff;
+	background: rgba(189,180,141,0.45);
+	width: auto;
+}
+
+div#navi ul li.on {
+	border: 1px solid #fff;
+	background : rgba(189,180,141,0.45);
+	cursor: default;
+}
+
+div.vcard {
+	margin: 15px 0px 0px 5px;
+	
+}
+div.vcard a {
+	display:block;
+	font-weight:bold;
+	color:#5A5851;
+	text-decoration: none;
+}
+div.vcard span.locality {	
+	padding: 1.5px;
+}
+div.varcd span.region {
+	margin-left: 2em;
+}
+div.vcard span.country-name {
+	display:block;
+}

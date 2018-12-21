@@ -1,0 +1,101 @@
+@CHARSET "ISO-8859-1";
+#doc {
+    margin:0 auto; /* center in viewport */
+    padding: 5px 10px 10px 10px;
+    border: 2px solid #FFFFFF;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+  	-ms-border-radius: 8px;
+  	-o-border-radius: 8px;	
+  	border-radius: 8px;
+  	overflow:hidden;
+}
+div.productsEmbededTop {
+	margin:1px 4px;
+	padding: 0px 0px;
+   	background : rgba(189,180,141,0.45);
+   	border: 2px solid #FFFFFF;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+  	-ms-border-radius: 8px;
+  	-o-border-radius: 8px;	
+  	border-radius: 8px;
+}
+div.productDescription {
+	margin: 0px 10px 0px 10px;
+	padding: 10px 0px 0px 0px;
+	
+	font-size: 14px;
+	font-family: Georgia, serif;
+	font-style: italic;
+	text-align: justify;
+	word-spacing: normal;
+}
+
+div.productsEmbededBottom {
+	margin: 2px 2px 0px 2px;
+	padding: 0px 2px 0px 2px;
+   	background : rgba(189,180,141,0.45);
+   	border: 1px solid #B6A97D;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+  	-ms-border-radius: 8px;
+  	-o-border-radius: 8px;	
+  	border-radius: 8px;
+}
+ul.tab {
+	list-style-type:none;
+	overflow:hidden;
+	border-top: 1px solid #B6A97D;
+	border-bottom: 1px solid #B6A97D;
+	border-right: 1px solid #B6A97D;
+}
+li.tab {
+	border-left: 1px solid #B6A97D;
+	border-right: 0px solid #B6A97D;
+	display:inline;
+	padding: 0px 10px;
+	cursor:pointer;
+}
+
+li.tab.on {
+	padding: 15px 10px;
+}
+span.on {
+	font-style:italic;
+	font-variant:small-caps;
+	font-weight:bold;
+}
+div.productsEmbededBottom 
+	table.productsImages {
+	margin: 0px 0px;
+}
+div.productsEmbededBottom 
+	table.productsImages td {
+	
+	border: 0px solid #FFFFFF;
+    padding: 0px 2px 0px 0px;
+    cursor:pointer;
+}
+div.productEmbeded {
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 0px 10px;
+   	background : rgba(189,180,141,0.45);
+   	border: 2px solid #FFFFFF;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+  	-ms-border-radius: 8px;
+  	-o-border-radius: 8px;	
+  	border-radius: 8px;
+}
+div#docMain {
+	margin: 0px 0px 0px 0px;
+	padding: 1px 1px 0px 6px;
+}
+div[id*='fragment_tag_']{
+    margin: 10px;
+	font-family: Verdana,arial,helvetica,sans-serif;
+    line-height: 1.5;
+    font-style: italic;
+	word-spacing: normal;
+}

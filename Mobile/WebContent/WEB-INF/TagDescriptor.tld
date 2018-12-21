@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE taglib PUBLIC 
+	"-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN" 
+	"http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_2.dtd">
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<short-name>DALIE</short-name>
+	<uri>WEB-INF/TagDescriptor</uri>
+	<tag>
+	 <name>NavigationBar</name>
+		<tag-class>mobile.tag.Navigation</tag-class>
+		<attribute>
+			<name>href</name><!-- required -->
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue><!--allow dynamically calculated expression-->
+			<description>URLforBackLink</description>
+		</attribute>
+		<attribute>
+			<name>title</name><!-- required -->
+			<required>false</required>
+			<description>TitelforBackLink</description>
+		</attribute>
+		<attribute>
+			<name>transition</name><!-- required -->
+			<required>false</required>
+			<description>TransitionStyleforBackLink</description>
+		</attribute>
+		<attribute>
+			<name>icon</name><!-- required -->
+			<required>false</required>
+			<description>IconTypofBacklink</description>
+		</attribute>
+		<attribute>
+			<name>rel</name><!-- required -->
+			<required>false</required>
+			<description>RelTypofBacklink</description>
+		</attribute>
+		<attribute>
+			<name>headerTitle</name><!-- required -->
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue><!--allow dynamically calculated expression-->
+			<description>TitleOfNavgiationBar</description>
+		</attribute>
+		<attribute>
+			<name>favSite</name>
+			<required>false</required>
+			<description>true/falseIsSiteFavoritesEligible</description>
+		</attribute>
+		<attribute>
+			<name>favTitle</name>
+			<required>false</required>
+			<description>valueOfFavTitle</description>
+		</attribute>
+		<attribute>
+			<name>favSubTitle</name>
+			<required>false</required>
+			<description>valueOfSubTitle</description>
+		</attribute>
+	</tag>
+	<tag>
+	<name>Dialog</name>
+	<tag-class>mobile.tag.Dialog</tag-class>
+			<attribute>
+			<name>id</name><!-- required -->
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue><!--allow dynamically calculated expression-->
+			<description>DialogId</description>
+		</attribute>
+		<attribute>
+			<name>hContent</name><!-- required -->
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue><!--allow dynamically calculated expression-->
+			<description>ContentToShowOnDialogHeader</description>
+		</attribute>
+		<attribute>
+			<name>content</name><!-- required -->
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue><!--allow dynamically calculated expression-->
+			<description>ContentToShowOnDialog</description>
+		</attribute>
+		<attribute>
+			<name>cssClass</name><!-- required -->
+			<required>false</required>
+			<description>NameOfCssClass</description>
+		</attribute>
+		<attribute>
+			<name>style</name><!-- required -->
+			<required>false</required>
+			<description>additional Styling</description>
+		</attribute>
+	</tag>
+	<tag>
+	<name>LocalizedString</name>
+	<tag-class>mobile.tag.LocalizedString</tag-class>
+			<attribute>
+			<name>key</name><!-- required -->
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue><!--allow dynamically calculated expression-->
+			<description>key</description>
+		</attribute>
+	</tag>
+	<tag>
+	<name>LocalizedDate</name>
+	<tag-class>mobile.tag.LocalizedDate</tag-class>
+			<attribute>
+			<name>fmt</name><!-- required -->
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue><!--allow dynamically calculated expression-->
+			<description>fmt</description>
+		</attribute>
+	</tag>
+	<tag>
+	<name>Include</name>
+	<tag-class>mobile.tag.Include</tag-class>
+			<attribute>
+			<name>url</name><!-- required -->
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue><!--allow dynamically calculated expression-->
+			<description>url-path</description>
+		</attribute>
+		<attribute>
+			<name>parms</name><!-- required -->
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue><!--allow dynamically calculated expression-->
+			<description>url-parms</description>
+		</attribute>
+	</tag>
+	<tag>
+	<name>LocalizedInformation</name>
+	<tag-class>mobile.tag.LocalizedInformation</tag-class>
+		<attribute>
+			<name>selectedLanguageId</name><!-- required -->
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue><!--allow dynamically calculated expression-->
+			<description>selectedLanguageId</description>
+		</attribute>
+	</tag>
+</taglib>

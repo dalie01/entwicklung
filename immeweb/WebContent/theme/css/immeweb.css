@@ -1,0 +1,14 @@
+@CHARSET "ISO-8859-1";
+*{
+	margin: 0;
+    padding:0; 
+}
+body {
+    width: 100%;
+}
+
+body, p, div, td, h1, h2, h3, h4, li {
+    font-family: Verdana,arial,helvetica,sans-serif;
+    line-height: 1.5;
+}
+

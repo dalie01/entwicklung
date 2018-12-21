@@ -1,0 +1,13 @@
+@CHARSET "ISO-8859-1";
+
+/* Border model */
+div.border-suround-s, div.border-suround-s-3D {
+	border: 1px solid #ddd;
+	border-radius: 0.6em;
+    -webkit-border-radius: 0.6em;
+}
+
+div.border-suround-s-3D {
+	border-right: 3px solid #ddd;
+	border-bottom: 3px solid #ddd;	
+}

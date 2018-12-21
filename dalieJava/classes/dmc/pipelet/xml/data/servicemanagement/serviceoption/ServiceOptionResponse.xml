@@ -1,0 +1,132 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns5:getServiceOptionsResponse xmlns="urn:common.schemas.pip.ws.sunrise.net" xmlns:ns2="urn:customer.schemas.pip.ws.sunrise.net" xmlns:ns3="urn:productmgmt.schemas.pip.ws.sunrise.net" xmlns:ns4="urn:base.salesobject.schemas.pip.ws.sunrise.net" xmlns:ns5="urn:servicemgmt.schemas.pip.ws.sunrise.net" xmlns:ns6="urn:catalogue.schemas.pip.ws.sunrise.net" xmlns:ns7="urn:mobile.salesobject.schemas.pip.ws.sunrise.net" xmlns:ns8="urn:ownerchange.salesobject.schemas.pip.ws.sunrise.net" xmlns:ns9="urn:manual.salesobject.schemas.pip.ws.sunrise.net" xmlns:ns10="urn:wireline.salesobject.schemas.pip.ws.sunrise.net">
+         <requestId>1346245715543</requestId>
+         <ns5:serviceOption>
+            <ns5:productId>Portuguese Premium</ns5:productId>
+            <ns5:installed>false</ns5:installed>
+            <ns5:modifiable>true</ns5:modifiable>
+            <ns5:earliestDeactivationDate>2013-09-10</ns5:earliestDeactivationDate>
+         </ns5:serviceOption>
+         <ns5:serviceOption>
+            <ns5:productId>Option Int. global TV comfort</ns5:productId>
+            <ns5:installed>true</ns5:installed>
+            <ns5:status>RECURRING</ns5:status>
+            <ns5:modifiable>true</ns5:modifiable>
+            <ns5:activationDate>2012-09-10</ns5:activationDate>
+            <ns5:earliestDeactivationDate>2012-09-11</ns5:earliestDeactivationDate>
+         </ns5:serviceOption>
+         <ns5:serviceOption>
+            <ns5:productId>Pink Plus</ns5:productId>
+            <ns5:installed>false</ns5:installed>
+            <ns5:modifiable>true</ns5:modifiable>
+            <ns5:earliestDeactivationDate>2013-09-10</ns5:earliestDeactivationDate>
+         </ns5:serviceOption>
+         <ns5:serviceOption>
+            <ns5:productId>Teleclub Cinema HD</ns5:productId>
+            <ns5:installed>false</ns5:installed>
+            <ns5:modifiable>true</ns5:modifiable>
+            <ns5:earliestDeactivationDate>2012-12-31</ns5:earliestDeactivationDate>
+            <ns5:dependsOn>Teleclub Cinema</ns5:dependsOn>
+         </ns5:serviceOption>
+         <ns5:serviceOption>
+            <ns5:productId>flat to Sunrise mobile</ns5:productId>
+            <ns5:installed>true</ns5:installed>
+            <ns5:status>RECURRING</ns5:status>
+            <ns5:modifiable>true</ns5:modifiable>
+            <ns5:activationDate>2012-09-10</ns5:activationDate>
+            <ns5:earliestDeactivationDate>2012-10-09</ns5:earliestDeactivationDate>
+            <ns5:conflictsWith>flat to Swiss mobile</ns5:conflictsWith>
+         </ns5:serviceOption>
+         <ns5:serviceOption>
+            <ns5:productId>India</ns5:productId>
+            <ns5:installed>false</ns5:installed>
+            <ns5:modifiable>true</ns5:modifiable>
+            <ns5:earliestDeactivationDate>2013-09-10</ns5:earliestDeactivationDate>
+         </ns5:serviceOption>
+         <ns5:serviceOption>
+            <ns5:productId>Teleclub Cinema</ns5:productId>
+            <ns5:installed>true</ns5:installed>
+            <ns5:status>RECURRING</ns5:status>
+            <ns5:modifiable>false</ns5:modifiable>
+            <ns5:activationDate>2012-06-21</ns5:activationDate>
+            <ns5:earliestDeactivationDate>2013-06-30</ns5:earliestDeactivationDate>
+         </ns5:serviceOption>
+         <ns5:serviceOption>
+            <ns5:productId>Teleclub Entertainment</ns5:productId>
+            <ns5:installed>false</ns5:installed>
+            <ns5:modifiable>true</ns5:modifiable>
+            <ns5:earliestDeactivationDate>2012-12-31</ns5:earliestDeactivationDate>
+            <ns5:dependsOn>Teleclub Cinema</ns5:dependsOn>
+         </ns5:serviceOption>
+         <ns5:serviceOption>
+            <ns5:productId>Teleclub Family HD</ns5:productId>
+            <ns5:installed>false</ns5:installed>
+            <ns5:modifiable>true</ns5:modifiable>
+            <ns5:earliestDeactivationDate>2012-12-31</ns5:earliestDeactivationDate>
+            <ns5:dependsOn>Teleclub Family</ns5:dependsOn>
+         </ns5:serviceOption>
+         <ns5:serviceOption>
+            <ns5:productId>Teleclub Family</ns5:productId>
+            <ns5:installed>false</ns5:installed>
+            <ns5:modifiable>true</ns5:modifiable>
+            <ns5:earliestDeactivationDate>2012-12-31</ns5:earliestDeactivationDate>
+            <ns5:dependsOn>Teleclub Cinema</ns5:dependsOn>
+         </ns5:serviceOption>
+         <ns5:serviceOption>
+            <ns5:productId>flat +33</ns5:productId>
+            <ns5:installed>false</ns5:installed>
+            <ns5:modifiable>true</ns5:modifiable>
+         </ns5:serviceOption>
+         <ns5:serviceOption>
+            <ns5:productId>Turkish Premium</ns5:productId>
+            <ns5:installed>false</ns5:installed>
+            <ns5:modifiable>true</ns5:modifiable>
+            <ns5:earliestDeactivationDate>2013-09-10</ns5:earliestDeactivationDate>
+         </ns5:serviceOption>
+         <ns5:serviceOption>
+            <ns5:productId>Teleclub Sport</ns5:productId>
+            <ns5:installed>false</ns5:installed>
+            <ns5:modifiable>true</ns5:modifiable>
+            <ns5:earliestDeactivationDate>2012-12-31</ns5:earliestDeactivationDate>
+            <ns5:dependsOn>Teleclub Cinema</ns5:dependsOn>
+         </ns5:serviceOption>
+         <ns5:serviceOption>
+            <ns5:productId>Teleclub Sport HD</ns5:productId>
+            <ns5:installed>false</ns5:installed>
+            <ns5:modifiable>true</ns5:modifiable>
+            <ns5:earliestDeactivationDate>2012-12-31</ns5:earliestDeactivationDate>
+            <ns5:dependsOn>Teleclub Sport</ns5:dependsOn>
+         </ns5:serviceOption>
+         <ns5:serviceOption>
+            <ns5:productId>flat +39</ns5:productId>
+            <ns5:installed>false</ns5:installed>
+            <ns5:modifiable>true</ns5:modifiable>
+         </ns5:serviceOption>
+         <ns5:serviceOption>
+            <ns5:productId>Teleclub Entertainment HD</ns5:productId>
+            <ns5:installed>false</ns5:installed>
+            <ns5:modifiable>true</ns5:modifiable>
+            <ns5:earliestDeactivationDate>2012-12-31</ns5:earliestDeactivationDate>
+            <ns5:dependsOn>Teleclub Entertainment</ns5:dependsOn>
+         </ns5:serviceOption>
+         <ns5:serviceOption>
+            <ns5:productId>Canal+</ns5:productId>
+            <ns5:installed>false</ns5:installed>
+            <ns5:modifiable>true</ns5:modifiable>
+            <ns5:earliestDeactivationDate>2013-09-30</ns5:earliestDeactivationDate>
+         </ns5:serviceOption>
+         <ns5:serviceOption>
+            <ns5:productId>flat +49</ns5:productId>
+            <ns5:installed>false</ns5:installed>
+            <ns5:modifiable>true</ns5:modifiable>
+         </ns5:serviceOption>
+         <ns5:serviceOption>
+            <ns5:productId>flat to Swiss mobile</ns5:productId>
+            <ns5:installed>false</ns5:installed>
+            <ns5:modifiable>true</ns5:modifiable>
+            <ns5:conflictsWith>flat to Sunrise mobile</ns5:conflictsWith>
+         </ns5:serviceOption>
+      </ns5:getServiceOptionsResponse>
+   </soap:Body>
+</soap:Envelope>
