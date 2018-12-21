@@ -10,6 +10,8 @@ Desktop.ini
 $RECYCLE.BIN/
 .metadata/
 .recommenders/
+.Servers/
+/Servers/
 
 # Windows Installer files
 *.cab
@@ -34,3 +36,4 @@ $RECYCLE.BIN/
 *.prefs
 *.MF
 *.jsdtscope
+
