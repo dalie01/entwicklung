@@ -48,12 +48,12 @@ public class TestServiceOptionResponse {
 
 	        SOAPHeader header = message.getSOAPHeader();
 	        if (header != null) {
-	            Iterator iter1 = header.getChildElements();
+	            Iterator<?> iter1 = header.getChildElements();
 	            getContents(iter1, "");
 	        }
 
 	        SOAPBody body = message.getSOAPBody();
-	        Iterator iter2 = body.getChildElements();
+	        Iterator<?> iter2 = body.getChildElements();
 	        getContents(iter2, "");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
@@ -61,7 +61,7 @@ public class TestServiceOptionResponse {
 		}
 	    }
 
-	    public static void getContents(Iterator iterator, String indent) {
+	    public static void getContents(Iterator<?> iterator, String indent) {
 	        while (iterator.hasNext()) {
 	            Node node = (Node)iterator.next();
 	            SOAPElement element = null;
