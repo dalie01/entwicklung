@@ -1,6 +1,10 @@
 package dalieOCP.exam;
 
 import static java.lang.System.out;
+/**
+ * @author ZOUDALIE
+ *
+ */
 final class E01 {
 
 	public static void main(String[] args) {
