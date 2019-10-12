@@ -10,6 +10,7 @@ class Execute {
 		Locale l1 = new Locale("en", "CA");
 		System.out.println("3" + l1.getCountry());
 		System.out.println("4" + l1.getVariant());
+		System.out.println("5" + l1.toString());
 		
 		Locale de = new Locale("de", "DE");// Remember: no modification is possible
 		System.out.println(de.getLanguage() + de.getDisplayCountry() + de.getDisplayLanguage() + "\n" + de.getDisplayLanguage(new Locale("it","IT")));
