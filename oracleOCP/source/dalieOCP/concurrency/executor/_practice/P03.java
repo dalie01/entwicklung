@@ -31,7 +31,7 @@ public class P03 implements Runnable {
 
 	public static void main(String[] args) {
 		ConcurrentHashMap<Integer, String> map = new ConcurrentHashMap<>();
-		ExecutorService ex = Executors.newFixedThreadPool(2);
+		ExecutorService ex = Executors.newFixedThreadPool(3);
 		try {
 			for (int i = 0; i < 10; i++) {
 				ex.submit(new P03(map,i,Integer.toString(i)));
@@ -51,7 +51,7 @@ public class P03 implements Runnable {
 		for (int s : sortedMap) {
 			System.out.format("%d,%s %n",s,map.get(s));
 		}
-		System.out.format("count %d %n", map.size());
+		System.out.format("number of elements %d %n", map.size());
 	}
 
 }
