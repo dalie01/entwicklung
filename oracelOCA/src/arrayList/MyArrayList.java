@@ -29,9 +29,10 @@ public class MyArrayList {
 		System.out.println(true == true);  /* true */
 		System.out.println(true != true);  /* false */
 	
-		System.out.println(true & false);
-		System.out.println(true & true);
-		System.out.println(true | false);
+		System.out.println(true & false); /*false*/
+		System.out.println(true & true); /* true */
+		System.out.println(true | false); /*true*/
+		System.out.println("1");
 		System.out.println(true | true);
 		
 		System.out.println(false & false);
