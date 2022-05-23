@@ -12,24 +12,21 @@ import java.util.concurrent.Executors;
  *
  */
 public class Executor {
-
-	/**
-	 * 
-	 */
+	private static final int countOfThreads = 3;
 	private void remove() {
-		out.format("%s\n", "remove");
+		out.format("%s, %s\n", "remove",Thread.currentThread().getName());
 	}
 
 	private void clean() {
-		out.format("%s\n", "clean");
+		out.format("%s, %s\n", "clean",Thread.currentThread().getName());
 	}
 
 	private void add() {
-		out.format("%s\n", "add");
+		out.format("%s, %s\n", "add",Thread.currentThread().getName());
 	}
 	
 	private void doSomething() {
-		out.format("%s\n", "do something");
+		out.format("%s, %s\n", "do something",Thread.currentThread().getName());
 	}
 	
 	public void executeTasks(CyclicBarrier c1, CyclicBarrier c2) {
@@ -47,16 +44,16 @@ public class Executor {
 	public static void main(String[] args) {
 		ExecutorService service = null;
 		try {
-			service = Executors.newFixedThreadPool(4);
+			service = Executors.newFixedThreadPool(Executor.countOfThreads);
 			Executor manager = new Executor();
-			CyclicBarrier c1 = new CyclicBarrier(4);
-			CyclicBarrier c2 = new CyclicBarrier(4, new Runnable() {
+			CyclicBarrier c1 = new CyclicBarrier(countOfThreads);
+			CyclicBarrier c2 = new CyclicBarrier(countOfThreads, new Runnable() {
 				public void run() {
 					manager.doSomething();
 				}
 			});
 			
-			for (int i = 0; i < 4; i++)
+			for (int i = 0; i < countOfThreads; i++)
 				service.submit(new Runnable() {
 
 					@Override
