@@ -39,3 +39,4 @@ $RECYCLE.BIN/
 *.jsdtscope
 
 /bin/
+.vscode/settings.json
