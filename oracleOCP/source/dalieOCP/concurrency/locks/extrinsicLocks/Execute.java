@@ -8,7 +8,7 @@ class Bus {
 	 * to a shared resource (in this case, the Bus object),
 	 * ensuring that only one thread can access the resource at a time.
 	 */
-	ReentrantLock lock = new ReentrantLock();
+	private ReentrantLock lock = new ReentrantLock();
 
 	/**
 	 * If the board method of the Bus class is called
@@ -26,9 +26,7 @@ class Bus {
 		if (lock.tryLock()) {// Acquire lock in one method
 
 			System.out.println(name + ": boarded");
-		} else {
-			System.out.println(name + " looked: boarded");
-		}
+		} 
 	}
 
 	/**
@@ -59,9 +57,7 @@ class Bus {
 			System.out.println(name + ": deboarded");
 			lock.unlock(); // Release lock in another method.
 
-		} else {
-			System.out.println(name + " looked: deboarded");
-		}
+		} 
 	}
 }
 
@@ -87,27 +83,30 @@ class Bus {
  * */
 public class Execute {
 
+	private static final String PASSENGER2 = "Passenger2";
+	private static final String PASSENGER1 = "Passenger1";
+
 	public static void main(String[] args) {
 		Bus bus = new Bus();
 		Thread t1 = new Thread(() -> {
-			bus.board("Passenger1");
+			bus.board(PASSENGER1);
 			try {
 				// Simulate some work being done
 				Thread.sleep(1000); 
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			bus.deboard("Passenger1");
+			bus.deboard(PASSENGER1);
 		});
 		Thread t2 = new Thread(() -> {
-			bus.board("Passenger2");
+			bus.board(PASSENGER2);
 			try {
 				// Simulate some work being done
 				Thread.sleep(2000); 
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			bus.deboard("Passenger2");
+			bus.deboard(PASSENGER2);
 		});
 		t1.start();
 		t2.start();
