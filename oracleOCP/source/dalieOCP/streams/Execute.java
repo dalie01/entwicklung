@@ -1,4 +1,4 @@
-package dalieOCP.steams;
+package dalieOCP.streams;
 
 import java.util.stream.IntStream;
 

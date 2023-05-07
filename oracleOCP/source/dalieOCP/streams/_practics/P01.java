@@ -1,4 +1,4 @@
-package dalieOCP.steams._practics;
+package dalieOCP.streams._practics;
 
 import java.util.ArrayList;
 import java.util.function.Predicate;
