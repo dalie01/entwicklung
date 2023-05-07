@@ -16,7 +16,7 @@ public class P03 {
         char c = 'a';
         if (i == f)
             c++;
-        if( ( (int)(f + d)) == ( (int)f + (int)d)){
+        if( ( (int)(f + d)) == ( (int)f + (int)d)) {
             c += 2;
         }
         System.out.println(c);
