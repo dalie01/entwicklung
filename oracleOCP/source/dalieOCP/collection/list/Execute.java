@@ -11,6 +11,8 @@ import java.util.List;
 
 class Execute {
 
+	private static boolean removeAll;
+
 	public static void main(String[] args) {
 		
 		Collection<Integer> cI = new ArrayList<>();
@@ -37,7 +39,7 @@ class Execute {
 		
 //		l.remove("1");remove Object it will iterated the ArrayList and search by equals methods. The first occurrence will be removed 
 //		l.remove(0);remove by index 0 is the first element
-		l.removeAll(cI);//<? extends Collection> Removes from this list all of its elements that are contained in the specified collection 
+		removeAll = l.removeAll(cI);//<? extends Collection> Removes from this list all of its elements that are contained in the specified collection 
 		System.out.println(l.size());
 		l.clear();
 		System.out.println(l.size());

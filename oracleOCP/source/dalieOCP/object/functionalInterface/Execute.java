@@ -41,7 +41,6 @@ public class Execute {
         int difference = Calculator.subtract(7, 4);
         System.out.println("Difference: " + difference);
     }
-
 }
 /**
  * The `@FunctionalInterface` annotation in Java is used to indicate that an interface is intended to be a functional interface.
