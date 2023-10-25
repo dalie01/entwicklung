@@ -1,5 +1,7 @@
 package dalieOCP.virtualMethodInvocation;
 
+import static java.lang.System.out;
+
 class A {
 	
 	int i = 1;
@@ -26,7 +28,7 @@ class Execute {
 		
 		try {
 			/* the output will be B.aMethod11 (method identified at runtime) */
-			System.out.println(a.aMethod() + a.i + ((A)b).i);
+			out.printf("output is %s",a.aMethod() + a.i + ((A)b).i);
 		
 		} catch (Exception e) {
 			e.printStackTrace();
