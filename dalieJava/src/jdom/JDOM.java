@@ -37,20 +37,20 @@ public class JDOM
 		// Neues Dokument im Speicher anlegen und serialisieren
 		doc = JDOMCreation.createBuecherDocument(factory);
 		JDOMSerialization.serialize(doc, new FileWriter(pfaddatei));
-		//separate(output);
+		separate(output);
 		
 		//Über Dokument navigieren und Infos ausgeben
-		//JDOMNavigation.navigate(doc, output);
-		//separate(output);
+		JDOMNavigation.navigate(doc, output);
+		separate(output);
 		
 		// Dokment manipulieren und neu serialisieren
-		//JDOMManipulation.manipulate(doc);
-		//JDOMSerialization.serialize(doc, new FileWriter(pfaddatei));
-		//separate(output);
+		JDOMManipulation.manipulate(doc);
+		JDOMSerialization.serialize(doc, new FileWriter(pfaddatei));
+		separate(output);
 		
 		// Dokument transformieren und Ergebnis serialisieren
-		//Document docTransformed = JDOMTransformation.transform(doc, factory);
-		//JDOMSerialization.serialize(docTransformed, new FileWriter(pfaddatei));
+		Document docTransformed = JDOMTransformation.transform(doc, factory);
+		JDOMSerialization.serialize(docTransformed, new FileWriter(pfaddatei));
 	}
 	
 	private static void separate(PrintWriter out)

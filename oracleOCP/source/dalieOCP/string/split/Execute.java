@@ -25,7 +25,7 @@ class Execute {
 		
 		String s6 = "Hello-to-the-World-and-World-to-the-Hello";
 		for(String s: s6.split("t.e"))
-			System.out.println(s);
+			System.out.println("s6" + s);
 		
 		String s7 = "Hello-to-the-World-and-World-to-the-Hello-and-the-Jena";
 		for(String s: s7.split("t.e",2))//can limit the maximum number of tokens

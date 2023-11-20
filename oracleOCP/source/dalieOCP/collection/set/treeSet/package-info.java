@@ -9,8 +9,8 @@
  * objects are added to the TreeSet.<br/> 
  * Watch out for storing objects of wrapper classes, Enum and File in a TreeSet; they all implement
  * Comparable.<br/>
- * The natural order of enum constants is the order in which they’re declared.<br/>
- * StringBuffer and StringBuilder don’t implement Comparable.
+ * The natural order of enum constants is the order in which they?re declared.<br/>
+ * StringBuffer and StringBuilder don?t implement Comparable.
  * </p>
  * 
  * @author dalie.de

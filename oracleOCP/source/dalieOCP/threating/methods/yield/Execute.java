@@ -13,7 +13,7 @@ class A implements Runnable {
 class B extends Thread {
 	
 	public void run() {
-		yield();
+//		yield();
 		System.out.println("B.Thread.run");
 	}
 }
@@ -28,7 +28,7 @@ class Execute {
 		
 		/* 
 		 * Method yield() is static. It can be called from any method,
-		 * and it doesn’t throw any exceptions.
+		 * and it doesn't throw any exceptions.
 		 * causes the currently executing thread object to temporarily pause 
 		 * and allow other threads to execute. 
 		 * */

@@ -1,6 +1,6 @@
 package dalieOCP.comparing.primitives;
 
-
+import static java.lang.System.out;
 /**
  * The operators == (equal to) and != (not equal to) can be used to compare all types of
  * primitives: char, byte, short, int, long, float, double, and boolean.
@@ -12,7 +12,8 @@ class Execute {
 		
 		int i1 = 5;
 		int i2 = 6;
-		System.out.println(i1 == i2);
+		System.out.println(i1 == i2);//false
+		out.printf("%s\n",i1 == (i2 = 5));//true
 //		System.out.println(i1.equals); impossible
 		
 		Integer I1 = new Integer(2);

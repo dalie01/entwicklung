@@ -38,3 +38,5 @@ $RECYCLE.BIN/
 *.MF
 *.jsdtscope
 
+/bin/
+.vscode/settings.json
